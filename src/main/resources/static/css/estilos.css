@@ -1,12 +1,47 @@
 body{
-    height: 927px;  
+    height: 927px;
     background-image: url(https://estaticos.qdq.com/swdata/home_photos/481/481300690/1876d4a7c36c41aa9c4a17f9f8cdd47b.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
     background-attachment: fixed;
     opacity: 0.9;
+}
 
+.login{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.form{
+    background-color: white;
+    width: 400px;
+    border-radius: 8px;
+    padding: 20px 40px;
+    box-shadow: 0 10px 25px rgba(92, 99, 105, .2);
+}
+
+.titulo{
+    font-size: 50px;
+    margin-bottom: 50px;
+    color: white;
+}
+
+.contenedor{
+    position: relative;
+    height: 40px;
+    width: 80px;
+    margin-bottom: 17px;
+    color: black;
+}
+
+.botones{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 28%;
 }
 
 
