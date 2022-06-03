@@ -7,7 +7,10 @@ body{
     background-attachment: fixed;
     opacity: 0.9;
 }
-
+.videoIndex{
+    text-align: center;
+    color: white;
+}
 .login{
     display: flex;
     justify-content: center;
@@ -23,10 +26,21 @@ body{
     box-shadow: 0 10px 25px rgba(92, 99, 105, .2);
 }
 
+.formCitas{
+    background-color: white;
+    width: 500px;
+    border-radius: 8px;
+    padding: 40px 40px;
+    box-shadow: 0 10px 25px rgba(92, 99, 105, .2);
+    margin: auto;
+    text-align: center;
+}
+
 .titulo{
     font-size: 50px;
     margin-bottom: 50px;
     color: white;
+    text-align: center;
 }
 
 .contenedor{
@@ -51,5 +65,79 @@ body{
     width: 63%;
 }
 
+.botones3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 21%;
+}
+.botones4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 25%;
+}
+.descripcion{
+    font-size: 18px;
+}
 
+
+
+#barraLateral{
+    position: absolute;
+    top: 12%;
+    left: 0;
+    height: 80%;
+    width: 20%;
+    background-color: coral;
+    color: white;
+    text-align: center;
+}
+
+#contenido{
+    position: absolute;
+    top: 12%;
+    left: 20%;
+    height: 80%;
+    width: 80%;
+    background-color: cadetblue;
+    color: white;
+    overflow: auto;
+    text-align: center;
+}
+
+#encabezadoTabla{
+    font-size: 20px;
+    background-color: grey;
+    color: white;
+}
+
+
+.tablaHorarios{
+    margin: auto;
+}
+
+#tablaResumen tr{
+    font-size: 25px;
+}
+
+#tablaResumen tr:nth-child(odd){
+    background-color: coral;
+    color: white;
+}
+
+#tablaResumen tr:nth-child(even){
+    background-color: white;
+    color: coral;
+}
+#piePagina{
+    position: absolute;
+    bottom: 0%;
+    left: 0%;
+    height: 8%;
+    width: 100%;
+    background-color: white;
+    color: black;
+    text-align: center;
+}
 
